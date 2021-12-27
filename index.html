@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Spaceship game OOP</title>
+</head>
+<body>
+  <main class="container" data-container>
+    <div class="container__score" data-score>Score:</div>
+    <div class="container__lives" data-lives>Lives:</div>
+    <div class="container__spaceship-user" data-spaceship></div>
+  </main>
+  <section class="modal hide" data-modal>
+    <h1 data-modal-text></h1>
+    <button data-modal-button>New game</button>
+  </section>
+  <script src="./js/Game.js" type="module"></script>
+</body>
+</html>
